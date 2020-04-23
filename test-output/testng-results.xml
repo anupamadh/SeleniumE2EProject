@@ -2,12 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22228" started-at="2020-04-23T14:38:33 SGT" finished-at="2020-04-23T14:38:55 SGT">
+  <suite name="Default suite" duration-ms="23687" started-at="2020-04-23T15:07:47 SGT" finished-at="2020-04-23T15:08:11 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22228" started-at="2020-04-23T14:38:33 SGT" finished-at="2020-04-23T14:38:55 SGT">
+    <test name="Default test" duration-ms="23687" started-at="2020-04-23T15:07:47 SGT" finished-at="2020-04-23T15:08:11 SGT">
       <class name="Academy.HomePage">
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.HomePage@6895a785]" name="basePageNavigation" duration-ms="22193" started-at="2020-04-23T14:38:33 SGT" finished-at="2020-04-23T14:38:55 SGT">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@1d29cf23]" name="basePageNavigation" duration-ms="23647" started-at="2020-04-23T15:07:47 SGT" data-provider="getData" finished-at="2020-04-23T15:08:11 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
