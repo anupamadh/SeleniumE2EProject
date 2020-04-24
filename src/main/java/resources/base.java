@@ -13,8 +13,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class base {
 	public WebDriver driver = null;
+	public Properties prop = null;
 	public WebDriver initializeDriver() throws IOException {
-		Properties prop = new Properties();
+		prop = new Properties();
 		FileInputStream fis = new FileInputStream("/Users/anupamadhir/workspace/SeleniumE2EProject/src/main/java/resources/data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");

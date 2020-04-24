@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23687" started-at="2020-04-23T15:07:47 SGT" finished-at="2020-04-23T15:08:11 SGT">
+  <suite name="Default suite" duration-ms="31513" started-at="2020-04-24T10:18:45 SGT" finished-at="2020-04-24T10:19:17 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23687" started-at="2020-04-23T15:07:47 SGT" finished-at="2020-04-23T15:08:11 SGT">
+    <test name="Default test" duration-ms="31513" started-at="2020-04-24T10:18:45 SGT" finished-at="2020-04-24T10:19:17 SGT">
       <class name="Academy.HomePage">
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@1d29cf23]" name="basePageNavigation" duration-ms="23647" started-at="2020-04-23T15:07:47 SGT" data-provider="getData" finished-at="2020-04-23T15:08:11 SGT">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@6acdbdf5]" name="initialize" is-config="true" duration-ms="1660" started-at="2020-04-24T10:18:45 SGT" finished-at="2020-04-24T10:18:47 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@6acdbdf5]" name="basePageNavigation" duration-ms="19737" started-at="2020-04-24T10:18:47 SGT" data-provider="getData" finished-at="2020-04-24T10:19:06 SGT">
           <params>
             <param index="0">
               <value>
@@ -23,6 +27,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@6acdbdf5]" name="basePageNavigation" duration-ms="9936" started-at="2020-04-24T10:19:06 SGT" data-provider="getData" finished-at="2020-04-24T10:19:16 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@6acdbdf5]" name="tearDown" is-config="true" duration-ms="137" started-at="2020-04-24T10:19:16 SGT" finished-at="2020-04-24T10:19:17 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- Academy.HomePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
