@@ -2,8 +2,9 @@ package Academy;
 
 import java.io.IOException;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.log4j.BasicConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -17,6 +18,7 @@ public class validateTitle extends base{
 	
 	@BeforeTest
 	public void initialize() throws IOException {
+		BasicConfigurator.configure();
 		driver = initializeDriver();
 		log.info("Driver is initialized");
 		driver.get(prop.getProperty("url"));
@@ -33,6 +35,7 @@ public class validateTitle extends base{
 	@AfterTest
 	public void tearDown() {
 		driver.close();
+		driver = null;
 	}
 	
 }

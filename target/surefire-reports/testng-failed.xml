@@ -5,11 +5,18 @@
     <classes>
       <class name="Academy.HomePage">
         <methods>
-          <include name="basePageNavigation" invocation-numbers="1"/>
+          <include name="basePageNavigation" invocation-numbers="0 1"/>
           <include name="initialize"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Academy.HomePage -->
+      <class name="Academy.validateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.validateNavigationBar -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

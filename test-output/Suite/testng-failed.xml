@@ -5,7 +5,7 @@
     <classes>
       <class name="Academy.HomePage">
         <methods>
-          <include name="basePageNavigation" invocation-numbers="1"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
           <include name="initialize"/>
           <include name="tearDown"/>
         </methods>
