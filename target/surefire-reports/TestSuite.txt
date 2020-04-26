@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 67.95 s - in TestSuite
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 45.426 s <<< FAILURE! - in TestSuite
+Academy.validateNavigationBar.basePageNavigation  Time elapsed: 0.084 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at Academy.validateNavigationBar.basePageNavigation(validateNavigationBar.java:28)
+

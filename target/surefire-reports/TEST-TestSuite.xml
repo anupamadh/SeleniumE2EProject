@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="67.95" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="45.426" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="webdriver.chrome.driver" value="/Users/anupamadhir/.m2/repository/webdriver/chromedriver/mac64/81.0.4044.69/chromedriver"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="SG"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/anupamadhir/workspace/SeleniumE2EProject/target/surefire/surefirebooter5831717969393288972.jar /Users/anupamadhir/workspace/SeleniumE2EProject/target/surefire 2020-04-25T13-19-39_919-jvmRun1 surefire8679539045297429521tmp surefire_012268358958057791771tmp"/>
+    <property name="sun.java.command" value="/Users/anupamadhir/workspace/SeleniumE2EProject/target/surefire/surefirebooter2527382507329931839.jar /Users/anupamadhir/workspace/SeleniumE2EProject/target/surefire 2020-04-26T09-35-50_966-jvmRun1 surefire12668952135483424435tmp surefire_011050709342481765318tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/anupamadhir/workspace/SeleniumE2EProject/target/test-classes:/Users/anupamadhir/workspace/SeleniumE2EProject/target/classes:/Users/anupamadhir/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/anupamadhir/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/anupamadhir/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/anupamadhir/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/anupamadhir/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/anupamadhir/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/anupamadhir/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/anupamadhir/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/anupamadhir/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/anupamadhir/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/anupamadhir/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/anupamadhir/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/anupamadhir/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/anupamadhir/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/anupamadhir/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/anupamadhir/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/anupamadhir/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/anupamadhir/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/anupamadhir/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/anupamadhir/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/anupamadhir/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0-M1/junit-jupiter-api-5.7.0-M1.jar:/Users/anupamadhir/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/anupamadhir/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/anupamadhir/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0-M1/junit-platform-commons-1.7.0-M1.jar:/Users/anupamadhir/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/anupamadhir/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/anupamadhir/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/anupamadhir/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/anupamadhir/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/anupamadhir/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/anupamadhir/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/anupamadhir/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/anupamadhir/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/anupamadhir/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/anupamadhir/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/anupamadhir/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/anupamadhir/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/anupamadhir/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/anupamadhir/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/anupamadhir/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/anupamadhir/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/anupamadhir/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2.jar:/Users/anupamadhir/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.2/log4j-core-2.13.2.jar:/Users/anupamadhir/.m2/repository/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar:/Users/anupamadhir/.m2/repository/org/slf4j/slf4j-log4j12/1.7.29/slf4j-log4j12-1.7.29.jar:/Users/anupamadhir/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/anupamadhir/workspace/SeleniumE2EProject/target/surefire/surefirebooter5831717969393288972.jar"/>
+    <property name="surefire.real.class.path" value="/Users/anupamadhir/workspace/SeleniumE2EProject/target/surefire/surefirebooter2527382507329931839.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="13.0.2+8"/>
@@ -55,8 +55,82 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="basePageNavigation" classname="Academy.validateNavigationBar" time="0.068"/>
-  <testcase name="basePageNavigation" classname="Academy.HomePage" time="27.857"/>
-  <testcase name="basePageNavigation" classname="Academy.HomePage" time="10.414"/>
-  <testcase name="basePageNavigation" classname="Academy.validateTitle" time="0.028"/>
+  <testcase name="basePageNavigation" classname="Academy.validateNavigationBar" time="0.084">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at Academy.validateNavigationBar.basePageNavigation(validateNavigationBar.java:28)
+]]></failure>
+    <system-out><![CDATA[0 [main] DEBUG io.github.bonigarcia.wdm.Preferences  - Preference chrome=81 (valid until 2020-04-26 12:28:43)
+2 [main] DEBUG io.github.bonigarcia.wdm.Preferences  - Preference chrome81=81.0.4044.69 (valid until 2020-04-26 12:28:43)
+2 [main] INFO io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 81.0.4044.69 (since Google Chrome 81 is installed in your machine)
+12 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 81.0.4044.69 found in cache
+13 [main] INFO io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/anupamadhir/.m2/repository/webdriver/chromedriver/mac64/81.0.4044.69/chromedriver
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 48917
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 26, 2020 9:35:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587864956.116][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864956.219][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864956.323][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864956.426][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864956.531][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864956.635][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864956.739][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864956.843][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864956.947][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864957.050][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864957.187][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864957.291][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864957.395][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864957.498][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864957.601][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864957.704][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864957.955][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864958.059][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864958.162][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864958.265][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864958.370][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864958.475][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864958.578][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864958.681][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864958.786][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864958.890][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864958.992][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864959.095][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864959.199][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864959.302][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864959.492][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864959.597][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864959.699][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864959.803][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864959.906][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864960.025][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864960.127][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864960.230][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864960.353][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864960.456][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864960.559][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864960.667][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864960.770][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864960.874][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864960.977][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864961.079][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864961.182][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864961.286][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864961.388][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864961.491][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864961.593][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864961.696][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864961.798][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864961.902][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864962.004][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864962.106][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864962.208][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587864962.310][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation" classname="Academy.HomePage" time="16.384"/>
+  <testcase name="basePageNavigation" classname="Academy.HomePage" time="7.184"/>
+  <testcase name="basePageNavigation" classname="Academy.validateTitle" time="0.032"/>
 </testsuite>

@@ -2,3 +2,6 @@
 13:20:33.622 [main] INFO  resources.base - Driver is initialized
 13:20:48.194 [main] INFO  resources.base - Navigated to Home Page
 13:20:48.223 [main] INFO  resources.base - Successfully validated text message
+09:36:28.766 [main] INFO  resources.base - Driver is initialized
+09:36:36.613 [main] INFO  resources.base - Navigated to Home Page
+09:36:36.646 [main] INFO  resources.base - Successfully validated text message
