@@ -3,3 +3,4 @@
 - Log4j logging framework
 - Screenshots on failure
 - Extent Reports
+- Jenkins integration
