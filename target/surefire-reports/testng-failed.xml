@@ -3,16 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="Academy.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="Validating navigation bar(failed)" verbose="0">
+  <test thread-count="5" name="Validating title in the page(failed)" verbose="0">
     <classes>
-      <class name="Academy.validateNavigationBar">
+      <class name="Academy.validateTitle">
         <methods>
+          <include name="validateAppTitle"/>
           <include name="initialize"/>
-          <include name="basePageNavigation"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Academy.validateNavigationBar -->
+      </class> <!-- Academy.validateTitle -->
     </classes>
-  </test> <!-- Validating navigation bar(failed) -->
+  </test> <!-- Validating title in the page(failed) -->
 </suite> <!-- Failed suite [Suite] -->
