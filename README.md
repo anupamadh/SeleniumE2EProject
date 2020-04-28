@@ -5,3 +5,4 @@
 - Extent Reports
 - Jenkins integration
 - Cucumber BDD
+- Parameterized tests
