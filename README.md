@@ -6,3 +6,4 @@
 - Jenkins integration
 - Cucumber BDD
 - Parameterized tests
+- Integrate TestNG with Cucumber
